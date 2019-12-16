@@ -23,10 +23,10 @@
 - new_payday - дата в формате timestamp+timezone_offset
 
 ## Дизайн
-Предоставлена версия для мобильного телефона (ширина до 640px)
-Первый экран
-Второй экран
-Третий экран
+Предоставлена версия для мобильного телефона (ширина до 640px):
+- Первый экран https://github.com/blah-ru/sknt/blob/master/task/1.png
+- Второй экран https://github.com/blah-ru/sknt/blob/master/task/2.png
+- Третий экран https://github.com/blah-ru/sknt/blob/master/task/3.png
 Для планшета тарифы вывести в две колонки (ширина от 640px до 1023px)
 Для большого экрана в три колонки (ширина от 1024px)
 
