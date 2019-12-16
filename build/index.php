@@ -9,7 +9,7 @@ function getJsonData($url){
 
     return curl_exec($ch);
 };
- $json = getJsonData('http://sknt.ru/job/frontend/data.json');
+ $json = getJsonData('http://sknt.kvanyukov.ru/data.json');
 
 ?>
 <!DOCTYPE html>
