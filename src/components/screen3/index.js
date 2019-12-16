@@ -9,11 +9,11 @@ class Screen3 extends Component {
   render() {
     const tarif = this.props.tarifs[ this.props.indexID[this.props.match.params.ID] ];
     const choice = tarif.tarifs.find(currentValue => currentValue.ID == this.props.match.params.ID );
-    const new_payday = this.timestampToDate(Number(choice.new_payday.split('+')[0]));
+    const new_payday = this.timestampToDate( Number( choice.new_payday.split('+')[0] ) );
     
     return (
       <div className="choice-box">
-        <Link to={tarif.link}>
+        <Link to={tarif.linkRate}>
           <div className="arrow_back"> &lt; </div>
           <p className="tarif-box__header choice-box__header">
             Выбор тарифа

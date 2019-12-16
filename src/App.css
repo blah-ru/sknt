@@ -33,7 +33,7 @@ a:visited{
 
 .arrow {
     position: absolute;
-    top: 80%;
+    top: 40%;
     right: 020px;
     font-size: 20px;
     color: #C8C8CD;
@@ -174,7 +174,10 @@ a:visited{
 
   .tarif,
   .rate{
-    width: calc(50% - 20px);
+    width: calc(50% - 40px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 2px black;
   }
 
   .rate__info {
@@ -185,6 +188,6 @@ a:visited{
 @media screen and (min-width: 1024px) {
  .tarif,
  .rate{
-    width: calc(33% - 20px);
+    width: calc(33% - 30px);
   }
 }
